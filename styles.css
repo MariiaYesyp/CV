@@ -1,0 +1,52 @@
+
+
+ p.uppercase {
+  font-family: Copperplate, Papyrus, fantasy;
+   text-transform: uppercase;
+  font-size: 30px; 
+} 
+.background {
+  background-color: #acb5c0;
+}
+
+ h2 {
+  /* background-color: rgb(161, 149, 149); */
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: left;
+  /* color: green; */
+}
+ul {
+  text-align: left;
+  color:rgb(71, 13, 13);
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#myHeader {
+  font-family: "Lucida Console", "Courier New", monospace;
+  /font-family: Arial, Helvetica, sans-serif;
+    background-color: #323232; 
+     color:#acb5c0;
+    /* padding: 50px;
+    border-left-width: 750%; */
+    /* text-align: center;  */
+    text-align: left; 
+   } 
+    .block {
+    width:400px;
+    height:200px;
+    position:relative;
+}
+.block:before {
+
+    content:"";
+    width:1px;
+    height:170%;
+    display:block;
+    left:170%;
+    position:absolute;
+      background-image: -webkit-linear-gradient(top, #fff, #000, #fff);
+    background-image: -moz-linear-gradient(top, #fff, #000, #fff);
+    background-image: -ms-linear-gradient(top, #fff, #000, #fff);
+    background-image: -o-linear-gradient(top, #fff, #000, #fff);
+    background-image: linear-gradient(top, #fff, #000, #fff);
+  } 
